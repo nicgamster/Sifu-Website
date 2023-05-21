@@ -1,0 +1,19 @@
+.content {
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 3em;
+}
+
+.content-header {
+  font-size: 5vmax;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+  .content-header {
+    text-align: center;
+    font-size: 3vmax;
+  }
+}

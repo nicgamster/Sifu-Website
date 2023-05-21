@@ -1,0 +1,125 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.image-link {
+  min-width: 250px;
+  min-height: 250px;
+  padding: 13px;
+  display: inline-block;
+}
+
+.read-more {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.cards-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 40%;
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+
+  align-items: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-date {
+  margin-top: 3%;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 50;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.card-detail-box {
+  max-height: 38%;
+  display: block;
+  overflow: hidden;
+}
+
+.card-detail {
+  font-size: 20px;
+}
+
+.card-image {
+  width: 60%;
+  height: 55%;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.card-link {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.card-link:hover {
+  border-bottom: 3px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-link:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .cards-box {
+    display: inline;
+  }
+
+  .card {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-date {
+    font-size: 1em;
+  }
+
+  .card-title {
+    font-size: 1em;
+  }
+
+  .card-detail {
+    font-size: 0.7em;
+  }
+
+  .card-link {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .read-more {
+    font-size: 1em;
+  }
+
+  .image-link {
+    all: unset;
+  }
+
+  .card-image {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,45 @@
+.image-container {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+}
+
+.image-container::after {
+  content: '';
+}
+
+.card-image {
+  width: 65%;
+}
+
+.date-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.news-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 50px 35px;
+}
+
+@media screen and (max-width: 800px) {
+  .news-text {
+    font-size: 1em;
+    text-align: center;
+    margin: 20px 25%;
+  }
+}

@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-05-19T09:50:15.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36" etag="IGWWeXxNAJVXNPM_Nx_D" version="21.2.7" type="device">
+  <diagram name="Страница 1" id="6BxcVrR5KpV6WQaWm85-">
+    <mxGraphModel dx="662" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="X3_iYxvrw8omAYvAQNHp-1" target="X3_iYxvrw8omAYvAQNHp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-1" value="Главная страница" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="X3_iYxvrw8omAYvAQNHp-2" target="X3_iYxvrw8omAYvAQNHp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="X3_iYxvrw8omAYvAQNHp-2" target="X3_iYxvrw8omAYvAQNHp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-2" value="Враги" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X3_iYxvrw8omAYvAQNHp-3" target="X3_iYxvrw8omAYvAQNHp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-3" value="Новости" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-4" value="Закулисье" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-7" value="Страница с врагом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3_iYxvrw8omAYvAQNHp-8" value="Страница с новостью" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

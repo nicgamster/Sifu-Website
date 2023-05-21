@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+
+
+.header {
+    display: flex;
+    /* position: f; */
+    background-color: black;
+
+    width: 100%;
+    height: 25%;
+
+    max-height: 100vh;
+
+    padding: 0 5%;
+}
+
+.logo-image {
+    width: 270px;
+    padding-left: 1%;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+
+ul, li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+
+    font-size: 27px;
+    /* color: red;
+    outline-color: white; */
+}
+
+ul, li, a {
+    text-decoration: none;
+    color: 3f51b5;
+}
+
+li:hover {
+    transition: border-bottom 0.1s ease-in-out;
+    text-shadow: 1px 0 0 white;
+
+    border-bottom: 5px solid white;
+    margin-bottom: -1px;
+}
+
+.current-site-ul {
+    text-shadow: 1px 0 0 white;
+}
+
+
+
+.main-section-1 {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(180deg, transparent, #202020), url(https://uploads-ssl.webflow.com/61af727e5db89fc513898b8a/61b20388521f5a51ec32499a_Section%201.png);
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    justify-content: center;
+
+    padding-right: 20px;
+
+
+}
+
+.main-section-2 {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(180deg, transparent, #202020), url(https://uploads-ssl.webflow.com/61af727e5db89fc513898b8a/61b20388fcfe14074410647f_Section%202.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    justify-content: center;
+
+    padding-right: 60vw;
+
+
+}
+
+.main-section-3 {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(180deg, transparent, #202020), url(https://uploads-ssl.webflow.com/61af727e5db89fc513898b8a/61b20388ac26171f420422b3_Section%203.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    justify-content: center;
+
+    padding-right: 20vw;
+
+
+}
+
+
+
+.text-section {
+    width: 360px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.text-h {
+    margin-top: 0px;
+    font-size: 48px;
+    line-height: 110%;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.text-discription {
+    font-size: 20px;
+    line-height: 150%;
+}
+

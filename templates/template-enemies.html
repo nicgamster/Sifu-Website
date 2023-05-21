@@ -1,0 +1,42 @@
+<html lang="ru">
+  <head>
+    <title>Враги</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/enemies_card.css" />
+    <link rel="stylesheet" href="/css/enemies.css" />
+    <link rel="stylesheet" href="/css/content.css" />
+    <link rel="stylesheet" href="/css/flips.css" />
+    <meta name="description" content="Враги" />
+    <meta name="keywords" content="боевые искусства, слабости, советы, сифу" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/img/Logo_Sifu_white.png" alt="Логотип" />
+      </div>
+      <nav>
+        <ul>
+          <li><a class="page-link" href="http://localhost:3000">Главная</a></li>
+          <li><a class="page-link" href="http://localhost:3000/enemies">Враги</a></li>
+          <li><a class="page-link" href="http://localhost:3000/news">Новости</a></li>
+          <li><a class="page-link" href="http://localhost:3000/behind_scene">Закулисье</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="content-header" style="background-image: url('/img/Contents/news.jpg')">
+        <div class="scroll-reveal box left">ВРАГИ 敵人</div>
+      </div>
+    </div>
+    <div class="cards-box">{%CARDS%}</div>
+    <script src="/js/flips.js"></script>
+  </body>
+</html>
